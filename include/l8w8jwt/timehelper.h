@@ -1,5 +1,9 @@
 #include <time.h>
 
+/**
+ * For now use the standard type for l8w8jwt_time_t. 
+ * Support for adding alternate types could be added in the future, if needed.
+*/
 typedef time_t l8w8jwt_time_t;
 
 /**

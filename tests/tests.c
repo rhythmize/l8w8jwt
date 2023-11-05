@@ -29,7 +29,6 @@
 
 /* Use system time if L8W8JWT_PLATFORM_TIME_ALT is set for tests*/
 #if L8W8JWT_PLATFORM_TIME_ALT
-#pragma message ("adding alt definition")
 l8w8jwt_time_t (*l8w8jwt_time)( l8w8jwt_time_t* time ) = time;
 #endif 
 

@@ -31,7 +31,6 @@ extern "C" {
 #include "claim.h"
 #include "version.h"
 #include "retcodes.h"
-#include <time.h>
 #include <stddef.h>
 
 #ifndef L8W8JWT_MAX_KEY_SIZE
